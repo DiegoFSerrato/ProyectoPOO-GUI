@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.chessgame.ChessController">
+  <children>
+    <VBox fx:id="chessBoard">
+      <!-- Fila 8 -->
+      <HBox>
+        <Button fx:id="a8" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="b8" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="c8" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="d8" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="e8" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="f8" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="g8" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="h8" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+      </HBox>
+      <!-- Fila 7 -->
+      <HBox>
+        <Button fx:id="a7" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="b7" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="c7" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="d7" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="e7" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="f7" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="g7" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="h7" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+      </HBox>
+      <!-- Fila 6 -->
+      <HBox>
+        <Button fx:id="a6" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="b6" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="c6" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="d6" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="e6" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="f6" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="g6" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="h6" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+      </HBox>
+      <!-- Fila 5 -->
+      <HBox>
+        <Button fx:id="a5" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="b5" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="c5" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="d5" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="e5" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="f5" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="g5" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="h5" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+      </HBox>
+      <!-- Fila 4 -->
+      <HBox>
+        <Button fx:id="a4" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="b4" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="c4" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="d4" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="e4" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="f4" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="g4" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="h4" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+      </HBox>
+      <!-- Fila 3 -->
+      <HBox>
+        <Button fx:id="a3" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="b3" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="c3" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="d3" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="e3" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="f3" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="g3" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="h3" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+      </HBox>
+      <!-- Fila 2 -->
+      <HBox>
+        <Button fx:id="a2" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="b2" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="c2" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="d2" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="e2" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="f2" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="g2" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="h2" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+      </HBox>
+      <!-- Fila 1 -->
+      <HBox>
+        <Button fx:id="a1" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="b1" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="c1" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="d1" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="e1" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="f1" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="g1" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+        <Button fx:id="h1" onAction="#handleMove" prefHeight="80.0" prefWidth="80.0"/>
+      </HBox>
+    </VBox>
+    <Button text="Reiniciar" onAction="#handleReset"/>
+    <Label fx:id="turnLabel" style="-fx-text-fill: green;"/>
+  </children>
+</VBox>
